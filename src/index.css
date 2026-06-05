@@ -1,5 +1,16 @@
 @import "tailwindcss";
 
-.layout {
-  @apply max-w-[1240px] px-2 mx-auto;
+body {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 1440px;
+  margin: auto;
+  font-family: "Inter", sans-serif;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
