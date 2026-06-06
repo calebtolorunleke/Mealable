@@ -53,13 +53,13 @@ const MealDiscovery = () => {
               <div className="flex flex-row items-center justify-between gap-2 text-xs font-bold">
                 <span className="flex items-center gap-1 px-2.5 py-1 text-slate-600">
                   <LocalFireDepartmentRoundedIcon className="w-3.5 h-3.5 text-slate-600" />
-                  <span>650 kcal</span>
+                  <span>{meal.calories} kcal</span>
                 </span>
 
                 {/* Prep Time Badge with Clock Icon */}
                 <span className="flex items-center gap-1 px-2.5 py-1 text-slate-600">
                   <AccessTimeRoundedIcon className="w-3.5 h-3.5 text-slate-500" />
-                  <span>45 min</span>
+                  <span>{meal.prepTime} min</span>
                 </span>
               </div>
 
