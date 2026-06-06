@@ -5,7 +5,7 @@ export const mealsData = [
     subtitle: "Smoky parboiled rice cooked in rich tomato and pepper base",
     category: "Lunch",
     imageUrl:
-      "https://www.allnigerianrecipes.com/wp-content/uploads/2019/02/smoky-jollof-rice.jpg",
+      "https://zenaskitchen.com/wp-content/uploads/2022/12/my-mums-jollof-rice-1.jpg",
     calories: 650,
     prepTime: 45,
   },
@@ -25,7 +25,7 @@ export const mealsData = [
     subtitle: "Crispy deep-fried peeled black-eyed pea fritters",
     category: "Breakfast",
     imageUrl:
-      "https://www.allnigerianrecipes.com/wp-content/uploads/2019/03/akara-recipe.jpg",
+      "https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fit,w_730,h_913/k%2FPhoto%2FRecipes%2F2021-10-akara-reshoot%2F2021-10-12_ATK8157",
     calories: 320,
     prepTime: 25,
   },
@@ -35,7 +35,7 @@ export const mealsData = [
     subtitle: "Rich spinach stew cooked with locust beans and assorted meats",
     category: "Dinner",
     imageUrl:
-      "https://www.sisijemimah.com/wp-content/uploads/2015/07/efo-riro-recipe.jpg",
+      "https://scontent.fyka1-1.fna.fbcdn.net/v/t1.6435-9/67900859_432962794229953_7930505151826100224_n.jpg?stp=dst-jpg_tt6&cstp=mx711x711&ctp=s711x711&_nc_cat=102&ccb=1-7&_nc_sid=0b6b33&_nc_ohc=9x5lAN72jaIQ7kNvwGIAMiQ&_nc_oc=AdpMHbQ48o2fc-uMuvwtHedo8F1yKnB46Aa22v220pv_tGuAu5v09ko2jDdF9aURriHsYcwBMg-XXG2dpyd6jdQh&_nc_zt=23&_nc_ht=scontent.fyka1-1.fna&_nc_gid=Z2AhqSr37-xd8VNezhdicw&_nc_ss=7b2a8&oh=00_Af8ev58rhz_pb33xn8FfCrvfPhq3HZncnbI3C8GjGDUwcw&oe=6A4B7F79",
     calories: 720,
     prepTime: 50,
   },
@@ -55,7 +55,7 @@ export const mealsData = [
     subtitle: "Savory steamed bean pudding mixed with peppers and boiled egg",
     category: "Breakfast",
     imageUrl:
-      "https://www.sisijemimah.com/wp-content/uploads/2015/08/moin-moin-recipe.jpg",
+      "https://shop.africanfoodsupermarket.com/cdn/shop/articles/moi_moi_600x.jpg?v=1611605450",
     calories: 280,
     prepTime: 40,
   },
@@ -66,7 +66,7 @@ export const mealsData = [
       "Thinly sliced beef rubbed with spicy ground peanut yaji seasoning",
     category: "Dinner",
     imageUrl:
-      "https://www.allnigerianrecipes.com/wp-content/uploads/2019/03/beef-suya.jpg",
+      "https://www.derrickriches.com/wp-content/uploads/2021/02/Depositphotos_212478466_XL-scaled-e1644773166101.jpg",
     calories: 420,
     prepTime: 30,
   },
@@ -76,7 +76,7 @@ export const mealsData = [
     subtitle: "Sweet ripe plantain discs paired with a spicy vegetable omelet",
     category: "Breakfast",
     imageUrl:
-      "https://www.sisijemimah.com/wp-content/uploads/2015/11/fried-plantain-and-eggs.jpg",
+      "https://abbieskitchenandeventplanners.com/wp-content/uploads/2023/11/a25571ab2c27859dcc6ee23742eca54c-600x551.jpeg",
     calories: 490,
     prepTime: 15,
   },
@@ -87,7 +87,7 @@ export const mealsData = [
       "Traditional Yoruba bean soup and jute leaf sauce mix with yam flour swallow",
     category: "Lunch",
     imageUrl:
-      "https://www.allnigerianrecipes.com/wp-content/uploads/2019/03/ewedu-soup.jpg",
+      "https://nubiandelicacies.com/wp-content/uploads/2023/02/Gbegiri-RECIPE.jpg-1260x1260.webp",
     calories: 610,
     prepTime: 55,
   },
@@ -98,7 +98,7 @@ export const mealsData = [
       "Rice cooked with palm oil, locust beans, scent leaves, and dry fish",
     category: "Lunch",
     imageUrl:
-      "https://www.sisijemimah.com/wp-content/uploads/2016/04/native-fried-rice.jpg",
+      "https://images.unsplash.com/photo-1772729440867-a99e03ede945?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGZyaWVkJTIwcmljZSUyMGFuZCUyMGNoaWNrZW58ZW58MHx8MHx8fDA%3D",
     calories: 680,
     prepTime: 40,
   },
@@ -119,8 +119,7 @@ export const mealsData = [
     subtitle:
       "Gizzard chunks and sweet fried plantain tossed in rich pepper sauce",
     category: "Lunch",
-    imageUrl:
-      "https://www.sisijemimah.com/wp-content/uploads/2015/09/gizdodo-recipe.jpg",
+    imageUrl: "https://sisijemimah.com/wp-content/uploads/2015/07/IMG_0968.png",
     calories: 540,
     prepTime: 35,
   },
@@ -142,7 +141,7 @@ export const mealsData = [
       "Soft, stretchy white bread paired with ultra-spicy mashed honey beans",
     category: "Breakfast",
     imageUrl:
-      "https://www.sisijemimah.com/wp-content/uploads/2015/09/ewa-agoyin-recipe.jpg",
+      "https://www.nairaland.com/attachments/7170808_images1_jpeg_jpeg209edec6a4f898efcdc7a52d90b407e7",
     calories: 560,
     prepTime: 45,
   },
@@ -153,7 +152,7 @@ export const mealsData = [
       "Viscous mucilaginous soup mixed with chopped fresh okra and meat",
     category: "Dinner",
     imageUrl:
-      "https://www.allnigerianrecipes.com/wp-content/uploads/2019/03/ogbono-soup.jpg",
+      "https://sisijemimah.com/wp-content/uploads/2015/10/DSC_2189-1536x1024.jpg",
     calories: 630,
     prepTime: 35,
   },
@@ -164,18 +163,17 @@ export const mealsData = [
       "Rice cooked simmered slowly in extracted fresh coconut milk and spices",
     category: "Lunch",
     imageUrl:
-      "https://www.sisijemimah.com/wp-content/uploads/2015/08/coconut-rice-recipe.jpg",
+      "https://t4.ftcdn.net/jpg/19/94/94/65/360_F_1994946563_0pCzDHxnt0LHTl7tmAfiAUyH2bEA0XND.jpg",
     calories: 670,
     prepTime: 40,
   },
   {
     id: "meal_017",
     title: "Ogi (Pap) with Milk",
-    subtitle:
-      "Smooth fermented corn starch gruel sweetened with evaporated milk",
+    subtitle: "Ogi made with famented maize",
     category: "Breakfast",
     imageUrl:
-      "https://www.allnigerianrecipes.com/wp-content/uploads/2020/05/corn-pap-ogi-akamu.jpg",
+      "https://t4.ftcdn.net/jpg/09/91/10/45/360_F_991104562_wqoUnQpqUUWtOklPAZQyOojuAL3GL2bq.jpg",
     calories: 240,
     prepTime: 10,
   },
@@ -186,7 +184,7 @@ export const mealsData = [
       "Nutrient-dense shredded afang leaves and waterleaves cooked in palm oil",
     category: "Dinner",
     imageUrl:
-      "https://www.sisijemimah.com/wp-content/uploads/2016/05/afang-soup.jpg",
+      "https://media.istockphoto.com/id/1327486564/photo/afang-soup-with-garri.jpg?s=170667a&w=0&k=20&c=lNwdVKDKwojZT8Fg-39MLaH0HyqtGCHz4LngNCMg44A=",
     calories: 760,
     prepTime: 45,
   },
@@ -197,7 +195,7 @@ export const mealsData = [
       "Ofada rice served with bleached palm oil green designer pepper stew",
     category: "Lunch",
     imageUrl:
-      "https://www.allnigerianrecipes.com/wp-content/uploads/2019/02/ayamase-stew.jpg",
+      "https://static.vecteezy.com/system/resources/thumbnails/069/480/187/small/savory-stew-with-white-rice-on-a-white-plate-photo.jpg",
     calories: 810,
     prepTime: 50,
   },
@@ -208,7 +206,7 @@ export const mealsData = [
       "Warm rolled oats infused with ground ginger, cinnamon, and berries",
     category: "Breakfast",
     imageUrl:
-      "https://www.myactivekitchen.com/wp-content/uploads/2021/01/gingerbread-oatmeal.jpg",
+      "https://images.unsplash.com/photo-1555078604-b2379f0e964a?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ycmlkZ2V8ZW58MHx8MHx8fDA%3D",
     calories: 310,
     prepTime: 15,
   },
@@ -230,7 +228,7 @@ export const mealsData = [
       "Crispy deep-fried white punan yam batons with onion-tomato relish",
     category: "Breakfast",
     imageUrl:
-      "https://www.sisijemimah.com/wp-content/uploads/2015/07/fried-yam-and-sauce.jpg",
+      "https://www.cookingclassy.com/wp-content/uploads/2021/10/baked-sweet-potato-fries-12.jpg",
     calories: 430,
     prepTime: 20,
   },
@@ -241,7 +239,7 @@ export const mealsData = [
       "Calabar vegetable delicacy combining pumpkin leaves and waterleaves",
     category: "Lunch",
     imageUrl:
-      "https://www.allnigerianrecipes.com/wp-content/uploads/2019/03/edikang-ikong.jpg",
+      "https://cookingwithclaudy.com/wp-content/uploads/2023/05/20230503_115331.jpg",
     calories: 700,
     prepTime: 45,
   },
@@ -251,8 +249,7 @@ export const mealsData = [
     subtitle:
       "Pasta noodles infused into a vibrant seasoned tomato and red bell pepper stew",
     category: "Dinner",
-    imageUrl:
-      "https://www.sisijemimah.com/wp-content/uploads/2015/08/jollof-spaghetti-recipe.jpg",
+    imageUrl:"https://cheflolaskitchen.com/wp-content/uploads/2025/07/Jollof-spaghetti.jpg.webp",
     calories: 590,
     prepTime: 30,
   },
@@ -262,8 +259,7 @@ export const mealsData = [
     subtitle:
       "Cassava flakes processed with palm oil, potash, ugba, and garden eggs",
     category: "Lunch",
-    imageUrl:
-      "https://www.allnigerianrecipes.com/wp-content/uploads/2019/03/abacha-recipe.jpg",
+    imageUrl:"https://www.foodnify.com/wp-content/uploads/2024/09/abacha-food-500x375.jpg",
     calories: 460,
     prepTime: 25,
   },
@@ -273,8 +269,7 @@ export const mealsData = [
     subtitle:
       "Unripe or semi-ripe plantain slices paired with a crushed egg-plant mash",
     category: "Breakfast",
-    imageUrl:
-      "https://www.sisijemimah.com/wp-content/uploads/2015/09/boiled-plantain-garden-egg.jpg",
+    imageUrl:"https://images.immediate.co.uk/production/volatile/sites/30/2020/10/Garden-egg-stew-a6cbbce.jpg",
     calories: 380,
     prepTime: 25,
   },
@@ -284,8 +279,7 @@ export const mealsData = [
     subtitle:
       "Aromatic, light soup thickened with yam paste, using no palm oil",
     category: "Dinner",
-    imageUrl:
-      "https://www.allnigerianrecipes.com/wp-content/uploads/2019/03/ofe-nsala.jpg",
+    imageUrl:"https://sisijemimah.com/wp-content/uploads/2015/09/ofe-nsala.jpg",
     calories: 520,
     prepTime: 40,
   },
@@ -295,8 +289,7 @@ export const mealsData = [
     subtitle:
       "Shredded cabbage, carrots, baked beans, boiled eggs, and salad dressing",
     category: "Lunch",
-    imageUrl:
-      "https://www.sisijemimah.com/wp-content/uploads/2015/08/nigerian-salad-recipe.jpg",
+    imageUrl:"https://images.unsplash.com/photo-1547496502-affa22d38842?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHNhbGFkc3xlbnwwfHwwfHx8MA%3D%3D",
     calories: 410,
     prepTime: 20,
   },
@@ -306,8 +299,7 @@ export const mealsData = [
     subtitle:
       "Thin, sweet crepes customized with a hint of nutmeg and sugar syrup",
     category: "Breakfast",
-    imageUrl:
-      "https://www.allnigerianrecipes.com/wp-content/uploads/2019/03/nigerian-pancakes.jpg",
+    imageUrl:"https://whatmollymade.com/wp-content/uploads/2023/11/pancake-roll-ups-17.jpg",
     calories: 340,
     prepTime: 15,
   },
@@ -317,8 +309,7 @@ export const mealsData = [
     subtitle:
       "Vibrant green peas, carrots, sweet corn, and liver bits mixed into rice",
     category: "Lunch",
-    imageUrl:
-      "https://www.sisijemimah.com/wp-content/uploads/2015/07/fried-rice-recipe.jpg",
+    imageUrl:"https://images.unsplash.com/photo-1637759079728-3f900db7a782?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGZyaWVkJTIwcmljZXxlbnwwfHwwfHx8MA%3D%3D",
     calories: 620,
     prepTime: 35,
   },
@@ -328,8 +319,7 @@ export const mealsData = [
     subtitle:
       "Overripe plantain mash combined with yeast and flour, fried golden-brown",
     category: "Breakfast",
-    imageUrl:
-      "https://www.allnigerianrecipes.com/wp-content/uploads/2019/03/plantain-mosa.jpg",
+    imageUrl:"https://static01.nyt.com/images/2021/08/11/dining/06plantainrex1/merlin_190839600_bc57d176-d346-4199-83b6-d3042cf1d2cb-superJumbo.jpg?format=pjpg&quality=75&auto=webp&disable=upscale",
     calories: 390,
     prepTime: 20,
   },
@@ -339,8 +329,7 @@ export const mealsData = [
     subtitle:
       "Honey beans slow-cooked to a tender finish in an onion-palm oil blend",
     category: "Dinner",
-    imageUrl:
-      "https://www.sisijemimah.com/wp-content/uploads/2015/07/ewa-riro-stewed-beans.jpg",
+    imageUrl:"https://cheflolaskitchen.com/wp-content/uploads/2025/07/Ewa-Riro-480x270.jpg",
     calories: 480,
     prepTime: 45,
   },
@@ -350,8 +339,7 @@ export const mealsData = [
     subtitle:
       "Riverine fresh-catch soup loaded with prawns, crabs, periwinkles, and fish",
     category: "Lunch",
-    imageUrl:
-      "https://www.myactivekitchen.com/wp-content/uploads/2020/03/fisherman-soup.jpg",
+    imageUrl:"https://images.unsplash.com/photo-1730112696140-19e61bb43d36?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZmlzaCUyMHNvdXB8ZW58MHx8MHx8fDA%3D",
     calories: 690,
     prepTime: 40,
   },
@@ -361,8 +349,7 @@ export const mealsData = [
     subtitle:
       "Slices of buttered white bread layered with eggs, mayonnaise, and vegetables",
     category: "Breakfast",
-    imageUrl:
-      "https://www.allnigerianrecipes.com/wp-content/uploads/2019/03/club-sandwich.jpg",
+    imageUrl:"https://plus.unsplash.com/premium_photo-1738802845911-809a01acfa50?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2x1YiUyMHNhbmR3aWNofGVufDB8fDB8fHww",
     calories: 450,
     prepTime: 10,
   },
@@ -372,8 +359,7 @@ export const mealsData = [
     subtitle:
       "Traditional eastern soup using delicate shredded oha leaves and cocoyam paste",
     category: "Dinner",
-    imageUrl:
-      "https://www.sisijemimah.com/wp-content/uploads/2017/10/oha-soup-recipe.jpg",
+    imageUrl:"https://media.istockphoto.com/id/654774476/photo/a-plate-of-fufu-served-with-oha-soup.jpg?s=170667a&w=0&k=20&c=AnjPICcUZfpUTF7K-F-rD2WIb641Cj8kz-qs1fYK6ec=",
     calories: 780,
     prepTime: 50,
   },
@@ -383,8 +369,7 @@ export const mealsData = [
     subtitle:
       "Charcoal-grilled whole plantains traditionally paired with roasted peanuts",
     category: "Lunch",
-    imageUrl:
-      "https://www.allnigerianrecipes.com/wp-content/uploads/2019/03/roasted-plantain-boli.jpg",
+    imageUrl:"https://nigeriancookbooks.com/wp-content/uploads/2024/08/boli_roasted_plantain-500x375.jpg",
     calories: 440,
     prepTime: 20,
   },
