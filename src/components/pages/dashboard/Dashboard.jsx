@@ -1,6 +1,6 @@
-import Header from "./Header";
-import Hero from "./Hero";
-import MealDiscovery from "./MealDiscovery";
+import Header from "../../layout/Header";
+import Hero from "../../layout/Hero";
+import MealDiscovery from "../../layout/MealDiscovery";
 
 
 const Dashboard = () => {

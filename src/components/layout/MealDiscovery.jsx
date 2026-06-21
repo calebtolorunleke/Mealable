@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import AddCircleRoundedIcon from "@mui/icons-material/AddCircleRounded";
-import FilterBar from "./FilterBar";
+import FilterBar from "../features/FilterBar";
 import AccessTimeRoundedIcon from "@mui/icons-material/AccessTimeRounded";
 import LocalFireDepartmentRoundedIcon from "@mui/icons-material/LocalFireDepartmentRounded";
-import { mealsData } from "../data/meal";
+import { mealsData } from "../../data/meal";
 import { map } from "framer-motion/client";
 
 const MealDiscovery = () => {
