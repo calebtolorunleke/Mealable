@@ -1,7 +1,8 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Login from "./components/pages/login/Login";
-import Dashboard from "./components/pages/dashboard/Dashboard";
+import MealMedia from "./components/pages/mealmedia/MealMedia";
 import ProtectedRoute from "./components/auth/ProtectedRoute";
+import Dashboard from "./components/pages/dashboard/Dashboard";
 
 function App() {
   return (
@@ -10,13 +11,14 @@ function App() {
         {/* Default page is Login */}
         <Route path="/" element={<Login />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/dashboard" element={<Dashboard />} />
 
         {/* Dashboard route */}
         <Route
-          path="/dashboard"
+          path="/mealmedia"
           element={
             <ProtectedRoute>
-              <Dashboard />
+              <MealMedia />
             </ProtectedRoute>
           }
         />
