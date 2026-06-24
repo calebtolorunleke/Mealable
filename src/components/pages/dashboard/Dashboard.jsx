@@ -2,6 +2,8 @@ import React from "react";
 import Header from "../../layout/Header";
 import RecState from "./RecState";
 import RecommendationCard from "./RecommendationCard";
+import WeekDate from "./WeekDate";
+import SuggestionFood from "./SuggestionFood";
 
 const Dashboard = () => {
   const todaysDate = new Date().toLocaleDateString("en-US", {
@@ -10,11 +12,13 @@ const Dashboard = () => {
     day: "numeric",
   });
   return (
-    <section className="bg-gray-100 h-[100vh]">
+    <section className="bg-gray-100 min-h-[100vh]">
       <Header />
       <section className="py-3 px-6">
         <RecState todaysDate={todaysDate} />
         <RecommendationCard />
+        <WeekDate />
+        <SuggestionFood />
       </section>
     </section>
   );
