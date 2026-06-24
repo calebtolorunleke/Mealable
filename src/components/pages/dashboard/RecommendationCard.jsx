@@ -22,7 +22,7 @@ const RecommendationCard = () => {
 
             <div className="mt-1">
               <div className="flex flex-row justify-between items-center ">
-                <span className="bg-green-100 text-green-900 text-xs py-1 px-3 rounded-full">{meal.category}</span>
+                <span className={`px-3 py-1 rounded-full text-xs font-md ${meal.category==="Lunch" || meal.category ==="Dinner" ? "bg-green-100" : "bg-orange-100 text-orange-800"}`}>{meal.category}</span>
 
                 <button className="text-green-900 hover:scale-110 transition">
                   <AddCircleRoundedIcon className="" />
