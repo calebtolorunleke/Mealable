@@ -1,5 +1,6 @@
 import React from "react";
 import { mealsData } from "../../../data/meal";
+import AddCircleRoundedIcon from "@mui/icons-material/AddCircleRounded";
 
 const RecommendationCard = () => {
   return (
@@ -13,7 +14,9 @@ const RecommendationCard = () => {
           <div className="">
             <div className="">
               <h3>{meal.category}</h3>
+              <AddCircleRoundedIcon className="text-green-900" />
             </div>
+            <span></span>
           </div>
         </div>
       ))}
