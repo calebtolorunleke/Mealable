@@ -7,7 +7,7 @@ const RecState = ({ todaysDate }) => {
       <div className=" flex justify-between items-center">
         <div className="flex flex-col gap-1">
           <h1 className="font-extrabold text-4xl text-green-950">
-            Your weekly Table
+            Your Weekly Table
           </h1>
           <h3 className="">{todaysDate}</h3>
         </div>
@@ -20,7 +20,9 @@ const RecState = ({ todaysDate }) => {
         </div>
       </div>
       <div>
-        <h1 className="uppercase">recommendation</h1>
+        <h1 className="uppercase text-green-950 font-bold text-md">
+          recommendation
+        </h1>
       </div>
     </div>
   );
