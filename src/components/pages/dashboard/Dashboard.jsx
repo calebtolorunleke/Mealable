@@ -10,13 +10,13 @@ const Dashboard = () => {
     day: "numeric",
   });
   return (
-    <>
+    <section className="bg-gray-100 h-[100vh]">
       <Header />
       <section className="py-3 px-6">
         <RecState todaysDate={todaysDate} />
         <RecommendationCard />
       </section>
-    </>
+    </section>
   );
 };
 
