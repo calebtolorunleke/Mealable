@@ -21,13 +21,15 @@ const RecommendationCard = () => {
             </div>
 
             <div className="mt-1">
-              <div className="flex flex-row justify-between">
-                <h3>{meal.category}</h3>
-                <button>
-                  <AddCircleRoundedIcon className="text-green-900" />
+              <div className="flex flex-row justify-between items-center ">
+                <span className="bg-green-100 text-green-900 text-xs py-1 px-3 rounded-full">{meal.category}</span>
+
+                <button className="text-green-900 hover:scale-110 transition">
+                  <AddCircleRoundedIcon className="" />
                 </button>
               </div>
-              <span>{meal.title}</span>
+
+              <h3 className="font-semibold text-gray-900 mt-3">{meal.title}</h3>
             </div>
           </div>
         ))}
