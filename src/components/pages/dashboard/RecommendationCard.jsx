@@ -3,7 +3,11 @@ import { mealsData } from "../../../data/meal";
 import AddCircleRoundedIcon from "@mui/icons-material/AddCircleRounded";
 
 const RecommendationCard = () => {
-  const recommendedMeals = mealsData.slice(0, 6);
+  
+
+
+
+  const recommendedMeals = mealsData.slice(0, 7);
   return (
     <section>
       <div className="flex flex-row flex-wrap gap-4">

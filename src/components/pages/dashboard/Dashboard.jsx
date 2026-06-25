@@ -4,6 +4,7 @@ import RecState from "./RecState";
 import RecommendationCard from "./RecommendationCard";
 import WeekDate from "./WeekDate";
 import SuggestionFood from "./SuggestionFood";
+import SundayPlan from "./SundayPlan";
 
 const Dashboard = () => {
   const todaysDate = new Date().toLocaleDateString("en-US", {
@@ -19,6 +20,7 @@ const Dashboard = () => {
         <RecommendationCard />
         <WeekDate />
         <SuggestionFood />
+        <SundayPlan/>
       </section>
     </section>
   );
