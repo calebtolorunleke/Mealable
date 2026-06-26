@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from "react";
-import { Navigate, useNavigate } from "react-router-dom";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   const handleEmail = (e) => {
     setEmail(e.target.value);
@@ -33,6 +33,7 @@ const Login = () => {
 
   const handleLogin = async (e) => {
     e.preventDefault();
+    setLoading(true);
 
     try {
       const response = await fetch(
@@ -48,21 +49,23 @@ const Login = () => {
       const data = await response.json();
 
       if (response.ok) {
+        localStorage.setItem("token", data.data.id);
         console.log(data);
         navigate("/dashboard");
-        setLoading(false);
       } else {
-        alert(data.messsage || "Incorrect credentials");
+        alert(data.message || "Incorrect credentials");
         return;
       }
     } catch (error) {
       console.log(error);
+    } finally {
+      setLoading(false);
     }
   };
 
   return (
     <div className="flex items-center justify-center h-screen">
-      <form action="" className="flex flex-col gap-3">
+      <form onSubmit={handleLogin} className="flex flex-col gap-3">
         <input
           className="border border-gray-300 rounded py-2 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
           type="email"
@@ -79,7 +82,6 @@ const Login = () => {
         />
         <button
           className="bg-blue-500 text-white px-4 py-2 rounded"
-          onClick={handleLogin}
           disabled={loading}
         >
           {loading ? "Logging in..." : "Login"}
